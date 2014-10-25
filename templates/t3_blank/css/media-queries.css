@@ -1,0 +1,51 @@
+
+
+/* ---- HIKASHOP PRODUCT IMAGES AT 1200px AND ABOVE SCREEN SIZES ------------------------- */
+/* ---- All screen sizes ABOVE and including 1200px ---- */
+@media (min-width: 1200px) {
+
+/*.hikashop_product_image_subdiv { background: silver; }*/
+.hikashop_product_image { margin-top: 10px; width: 90%; }
+
+}
+
+
+
+/* ---- HIKASHOP PRODUCT IMAGES AT 980px to 1199px SCREEN WIDTH ------------------------- */
+/* ---- All screen sizes BETWEEN and including 980px and 1199px ---- */
+@media (min-width: 980px) and (max-width: 1199px) {
+
+.hikashop_product_image { height: 270px !important; }
+
+}
+
+
+
+/* ---- HIKASHOP PRODUCT IMAGES AT 768px to 979px SCREEN WIDTH ------------------------- */
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+.hikashop_product_image { height: 190px !important; }
+
+}
+
+
+/* ---- HIKASHOP PRODUCT IMAGES AT 767 SCREEN WIDTH ------------------------- */
+/* ---- All screen sizes up to and including 767px ---- */
+@media (max-width: 767px) {
+
+/*.hikashop_product_image_subdiv { background: yellow; }*/
+.hikashop_product_image { height: 290px !important; }
+
+}
+
+
+/* ---- HIKASHOP PRODUCT IMAGES AT 480px SCREEN WIDTH ------------------------- */
+/* ---- All screen sizes up to and including 480px ---- */
+@media (max-width: 480px) {
+
+/*.hikashop_product_image_subdiv { background: orange; }*/
+.hikashop_product_image { height: 340px !important; }
+
+/*div.hikashop_subcontainer.thumbnail .hikashop_container .thumbnail { border: none; }*/
+}

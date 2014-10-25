@@ -1,0 +1,81 @@
+
+
+
+
+/* ---- Main image size ------- */
+img#hikashop_main_image { width: 100% !important; }
+div.hikashop_product_main_image_subdiv { width: 100% !important; background: yellow; }
+.hikashop_product_main_image { background: orange; width: 80% !important; height:300px !important; }
+
+
+
+
+
+
+#hikashop_main_image {
+	width: 90% !important;
+}
+
+
+
+
+
+
+/* ---- HIKASHOP PRODUCT IMAGES ------------------------- */
+
+@media (min-width: 1200px) {
+
+.thumbnail div.hikashop_product_image_subdiv {
+	width: 50% !important;
+}
+
+
+.hikashop_product_image { height: 250px !important; }
+
+}
+
+
+/* ---- HIKASHOP PRODUCT IMAGES AT 768px to 979px SCREEN WIDTH ------------------------- */
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+.thumbnail div.hikashop_product_image_subdiv {
+	width: 100% !important;
+}
+
+/* ---- Main image size ------- */
+/* .hikashop_product_image { height: 190px !important; } */
+
+}
+
+
+
+
+/* ---- HIKASHOP PRODUCT IMAGES AT 767 SCREEN WIDTH ------------------------- */
+
+@media (max-width: 767px) {
+
+.thumbnail div.hikashop_product_image_subdiv {
+	width: 90% !important;
+}
+
+/* ---- Main image size ------- */
+.hikashop_product_image { height: 260px !important; }
+
+}
+
+
+
+/* ---- HIKASHOP PRODUCT IMAGES AT 480 SCREEN WIDTH ------------------------- */
+
+@media (max-width: 480px) {
+
+/* ---- Thumbnail image size ------- */
+.thumbnail div.hikashop_product_image_subdiv {
+	width: 100% !important;
+}
+
+/* ---- Main image size ------- */
+.hikashop_product_image { height: 400px !important; }
+
+}
